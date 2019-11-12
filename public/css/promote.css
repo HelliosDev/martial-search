@@ -1,0 +1,173 @@
+/* ---- Global ----  */
+.wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+a {
+    font-size: 20px;
+    color: #FFF;
+    text-decoration: none;
+    font-weight: 600; 
+    vertical-align: middle;
+}
+
+/* ---- Profile ----  */
+.profile {
+    width: 100%;
+    height: 500px;
+    background-image: linear-gradient(90deg, #14E8D5,#597EE8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.profile__menu {
+    width: 80%;
+    padding-top: 1em; 
+}
+
+.home {
+    float: left;
+    text-align: left;
+}
+
+.logout {
+    cursor: pointer;
+    color: #FFF;
+    border: 3px solid #FFF;
+    border-radius: 45px;
+    padding: 14px 24px;
+    float: right;
+    text-align: right;
+    font-weight: 700;
+}
+
+.profile__picture, .profile__picture img {
+    width: 200px;
+    height: 200px;
+}
+
+.profile__picture {
+    border: 5px solid #FFF;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #FFF;
+    box-shadow: 0 10px 10px 2px rgba(0, 0, 0, 0.2);
+    margin-bottom: 40px;
+}
+
+.profile__caption h1 {
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.profile__caption p {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.edit {
+    margin-top: 20px;
+    border: 3px solid #FFF;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.ic__edit, .link__edit {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* ---- Card ---- */
+.card__wrapper {
+    justify-content: center;
+    margin: 50px auto;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+.card {
+    cursor: pointer;
+    border-radius: 30px;
+    margin: 50px 40px;
+    padding: 20px;
+}
+
+.card:hover {
+    cursor: pointer;
+    background-image: linear-gradient(90deg, #14E8D5,#597EE8);
+    color: #FFF;
+    border: 0;
+}
+
+.card:hover .card__price{
+    color: #14E8D5;
+    background-image: none;
+    background-color: #FFF;
+}
+
+.card:hover .delete-button{
+    color: #FFF;
+}
+
+.card__img {
+    border-radius: 20px;
+}
+
+.card__title {
+    font-size: 32px;
+}
+
+.card__description {
+    font-size: 28px;   
+}
+
+.card__price {
+    color: #FFF;
+    font-weight: 700;
+    font-size: 22px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-image: linear-gradient(90deg, #14E8D5,#597EE8);
+}
+
+.add-symbol {
+    width: 80px;
+    border: 5px solid #000;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+
+.card:hover .add-symbol, .add-icon {
+    border: 5px solid #FFF;
+    fill: #FFF;
+}
+
+.add {
+    padding: 40px 0;
+}
+
+.add-new {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+
+/* ---- Delete ---- */
+.delete-button, .edit-button {
+    font-size: 24px;
+    color: #000;
+    font-weight: 700;
+    text-align: right;
+    text-decoration: none;
+    cursor: pointer;
+}

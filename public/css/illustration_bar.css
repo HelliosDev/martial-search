@@ -1,0 +1,52 @@
+/* ---- Illustration ---- */
+.illustration-poster {
+    width: 50%;
+    height: 100%;
+    background-color: #09F;
+    padding: 50px;
+    box-sizing: border-box;
+    position: fixed;
+}
+
+.illustration-poster h1 {
+    color: #FFF;
+    font-size: 3em;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.illustration-poster img {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+} 
+
+.right, .left{
+    top: 0;
+    bottom: 0;
+}
+
+.left {
+    left: 0;
+}
+
+.right {
+    right: 0;
+}
+
+.fl_right {
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+@media only screen and (max-width: 1024px) {
+    .illustration-poster {
+        display: none;
+    }
+}
